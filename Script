@@ -1,0 +1,24 @@
+print("Hello This is RScript V1.01 a Basic System To Talk To")
+name = input("What Is Your Name ")
+print("Hello",name)
+print("Welcome to Rscript",name)
+age = input("Age Please ")
+print("Verifying Age And Name ",name,age)
+print("Age And Name Verified")
+
+print("Welcome to the Choice System")
+print("1. Chat With AI")
+print("2. Stop Script")
+print("3. Coming Soon")
+
+choice = input("Enter your choice (1/2/3): ")
+
+if choice == '1':
+    print("Hello",name)
+    print("Coming Soon")
+elif choice == '2':
+    print("Ended")
+elif choice == '3':
+    print("You chose Option 3")
+else:
+    print("Invalid choice. Please choose 1, 2, or 3.")
